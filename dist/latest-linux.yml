@@ -1,0 +1,9 @@
+version: 1.2.1
+files:
+  - url: Monkey-Type-1.2.1.AppImage
+    sha512: A1kVkd6oCLBEt+cdfJKtqoVq/J07/xwmVtlxycvogmu19krIIufrut+RD4Ak9vB/6pD8/lO/T0DShRiP58kOXw==
+    size: 71365345
+    blockMapSize: 74485
+path: Monkey-Type-1.2.1.AppImage
+sha512: A1kVkd6oCLBEt+cdfJKtqoVq/J07/xwmVtlxycvogmu19krIIufrut+RD4Ak9vB/6pD8/lO/T0DShRiP58kOXw==
+releaseDate: '2022-02-17T15:46:03.861Z'

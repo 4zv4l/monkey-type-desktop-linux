@@ -3,7 +3,7 @@
 'use strict';
 const path = require('path');
 const { app, BrowserWindow, Menu, session, globalShortcut } = require('electron');
-const { autoUpdater } = require('electron-updater');
+// const { autoUpdater } = require('electron-updater');
 const { is } = require('electron-util');
 const unhandled = require('electron-unhandled');
 const debug = require('electron-debug');
@@ -27,14 +27,6 @@ app.setAppUserModelId('com.sin.monkey-type-desktop');
 
 // Uncomment this before publishing your first version.
 // It's commented out as it throws an error if there are no published versions.
-if (!is.development) {
-	const FOUR_HOURS = 1000 * 60 * 60 * 4;
-	setInterval(() => {
-		autoUpdater.checkForUpdates();
-	}, FOUR_HOURS);
-
-	autoUpdater.checkForUpdates();
-}
 
 // Prevent window from being garbage collected
 let mainWindow;
